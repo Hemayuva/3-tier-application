@@ -18,3 +18,4 @@ username="username"
 password="password"
 skip_final_snapshot= true
 security_group_ids=[aws_security_group.database-sg.id]
+}
