@@ -53,7 +53,7 @@ resource "aws_subnet" "Database-subnet-1" {
 resource "aws_subnet" "Database-subnet-2" {
   vpc_id            = aws_vpc.my_vpc.id
   cidr_block        = var.subnet5_cidr
-  availability_zone = "ap-south-1a"
+  availability_zone = "ap-south-1b"
   tags = {
     Name = " database subnet2"
  }
